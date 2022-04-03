@@ -14,6 +14,7 @@
 		30A73CFB27FA15F700685E50 /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A73CFA27FA15F700685E50 /* Music.swift */; };
 		30A73CFD27FA196600685E50 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A73CFC27FA196600685E50 /* HomeView.swift */; };
 		30A73CFF27FA1E8600685E50 /* SnapCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A73CFE27FA1E8600685E50 /* SnapCarousel.swift */; };
+		30A73D0127FA46E900685E50 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A73D0027FA46E900685E50 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		30A73CFA27FA15F700685E50 /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
 		30A73CFC27FA196600685E50 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		30A73CFE27FA1E8600685E50 /* SnapCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapCarousel.swift; sourceTree = "<group>"; };
+		30A73D0027FA46E900685E50 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				30A73CEC27FA11DF00685E50 /* ContentView.swift */,
 				30A73CFC27FA196600685E50 /* HomeView.swift */,
+				30A73D0027FA46E900685E50 /* DetailView.swift */,
 				30A73CFE27FA1E8600685E50 /* SnapCarousel.swift */,
 			);
 			path = View;
@@ -163,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				30A73CED27FA11DF00685E50 /* ContentView.swift in Sources */,
+				30A73D0127FA46E900685E50 /* DetailView.swift in Sources */,
 				30A73CFD27FA196600685E50 /* HomeView.swift in Sources */,
 				30A73CEB27FA11DF00685E50 /* MusicAppAnimationChallengeApp.swift in Sources */,
 				30A73CFB27FA15F700685E50 /* Music.swift in Sources */,
