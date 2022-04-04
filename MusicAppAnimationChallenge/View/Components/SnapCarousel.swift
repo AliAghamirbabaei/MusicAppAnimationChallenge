@@ -37,31 +37,31 @@ struct SnapCarousel<Content: View, T: Identifiable>: View {
                     content(item)
                         .frame(width: proxy.size.width - trailingSpace)
                         .offset(y: getOffset(item: item, width: width))
-                        .gesture(
-                            DragGesture()
-                                .updating($offset, body: { value, out, _ in
-                                    out = value.translation.width
-                                })
-                                .onEnded({ value in
-                                    let offsetX = value.translation.width
-                                    let progress = -offsetX / width
-                                    let roundIndex = progress.rounded()
-                                    
-                                    currentIndex = max(min(currentIndex + Int(roundIndex), list.count - 1), 0)
-                                    currentIndex = index
-                                })
-                                .onChanged({ value in
-                                    let offsetX = value.translation.width
-                                    let progress = -offsetX / width
-                                    let roundIndex = progress.rounded()
-                                    
-                                    index = max(min(currentIndex + Int(roundIndex), list.count - 1), 0)
-                                })
-                        )
                 }
             }
             .padding(.horizontal, spacing)
             .offset(x: (CGFloat (currentIndex) * -width) + (currentIndex != 0 ? adjustMentWidth : 0) + offset)
+            .gesture(
+                DragGesture()
+                    .updating($offset, body: { value, out, _ in
+                        out = (value.translation.width / 1.5)
+                    })
+                    .onEnded({ value in
+                        let offsetX = value.translation.width
+                        let progress = -offsetX / width
+                        let roundIndex = progress.rounded()
+                        
+                        currentIndex = max(min(currentIndex + Int(roundIndex), list.count - 1), 0)
+                        currentIndex = index
+                    })
+                    .onChanged({ value in
+                        let offsetX = value.translation.width
+                        let progress = -offsetX / width
+                        let roundIndex = progress.rounded()
+                        
+                        index = max(min(currentIndex + Int(roundIndex), list.count - 1), 0)
+                    })
+            )
         }
         .animation(.easeInOut, value: offset == 0)
     }
