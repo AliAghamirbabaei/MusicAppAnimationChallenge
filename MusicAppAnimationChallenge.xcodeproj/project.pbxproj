@@ -8,25 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		30A73CEB27FA11DF00685E50 /* MusicAppAnimationChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A73CEA27FA11DF00685E50 /* MusicAppAnimationChallengeApp.swift */; };
-		30A73CED27FA11DF00685E50 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A73CEC27FA11DF00685E50 /* ContentView.swift */; };
 		30A73CEF27FA11E200685E50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30A73CEE27FA11E200685E50 /* Assets.xcassets */; };
 		30A73CF227FA11E200685E50 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30A73CF127FA11E200685E50 /* Preview Assets.xcassets */; };
 		30A73CFB27FA15F700685E50 /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A73CFA27FA15F700685E50 /* Music.swift */; };
 		30A73CFD27FA196600685E50 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A73CFC27FA196600685E50 /* HomeView.swift */; };
 		30A73CFF27FA1E8600685E50 /* SnapCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A73CFE27FA1E8600685E50 /* SnapCarousel.swift */; };
 		30A73D0127FA46E900685E50 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A73D0027FA46E900685E50 /* DetailView.swift */; };
+		30A73D0327FA535900685E50 /* Mocked Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A73D0227FA535900685E50 /* Mocked Data.swift */; };
+		30A73D0527FA54D000685E50 /* OffsetModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A73D0427FA54D000685E50 /* OffsetModifier.swift */; };
+		30A73D0A27FA76BD00685E50 /* DevilBreezeBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 30A73D0827FA76BC00685E50 /* DevilBreezeBold.ttf */; };
+		30A73D0B27FA76BD00685E50 /* DevilBreezeBook.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 30A73D0927FA76BD00685E50 /* DevilBreezeBook.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		30A73CE727FA11DF00685E50 /* MusicAppAnimationChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicAppAnimationChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30A73CEA27FA11DF00685E50 /* MusicAppAnimationChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicAppAnimationChallengeApp.swift; sourceTree = "<group>"; };
-		30A73CEC27FA11DF00685E50 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		30A73CEE27FA11E200685E50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30A73CF127FA11E200685E50 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		30A73CFA27FA15F700685E50 /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
 		30A73CFC27FA196600685E50 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		30A73CFE27FA1E8600685E50 /* SnapCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapCarousel.swift; sourceTree = "<group>"; };
 		30A73D0027FA46E900685E50 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		30A73D0227FA535900685E50 /* Mocked Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Mocked Data.swift"; sourceTree = "<group>"; };
+		30A73D0427FA54D000685E50 /* OffsetModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffsetModifier.swift; sourceTree = "<group>"; };
+		30A73D0727FA763900685E50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		30A73D0827FA76BC00685E50 /* DevilBreezeBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DevilBreezeBold.ttf; sourceTree = "<group>"; };
+		30A73D0927FA76BD00685E50 /* DevilBreezeBook.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DevilBreezeBook.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +66,11 @@
 		30A73CE927FA11DF00685E50 /* MusicAppAnimationChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				30A73D0727FA763900685E50 /* Info.plist */,
 				30A73CEA27FA11DF00685E50 /* MusicAppAnimationChallengeApp.swift */,
 				30A73CF927FA15D200685E50 /* Model */,
 				30A73CF827FA15C500685E50 /* View */,
+				30A73D0627FA759100685E50 /* Fonts */,
 				30A73CEE27FA11E200685E50 /* Assets.xcassets */,
 				30A73CF027FA11E200685E50 /* Preview Content */,
 			);
@@ -79,10 +88,9 @@
 		30A73CF827FA15C500685E50 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				30A73CEC27FA11DF00685E50 /* ContentView.swift */,
 				30A73CFC27FA196600685E50 /* HomeView.swift */,
 				30A73D0027FA46E900685E50 /* DetailView.swift */,
-				30A73CFE27FA1E8600685E50 /* SnapCarousel.swift */,
+				30A73D0C27FA7A0100685E50 /* Components */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -91,8 +99,27 @@
 			isa = PBXGroup;
 			children = (
 				30A73CFA27FA15F700685E50 /* Music.swift */,
+				30A73D0227FA535900685E50 /* Mocked Data.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		30A73D0627FA759100685E50 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				30A73D0827FA76BC00685E50 /* DevilBreezeBold.ttf */,
+				30A73D0927FA76BD00685E50 /* DevilBreezeBook.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		30A73D0C27FA7A0100685E50 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				30A73D0427FA54D000685E50 /* OffsetModifier.swift */,
+				30A73CFE27FA1E8600685E50 /* SnapCarousel.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +180,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30A73D0A27FA76BD00685E50 /* DevilBreezeBold.ttf in Resources */,
+				30A73D0B27FA76BD00685E50 /* DevilBreezeBook.ttf in Resources */,
 				30A73CF227FA11E200685E50 /* Preview Assets.xcassets in Resources */,
 				30A73CEF27FA11E200685E50 /* Assets.xcassets in Resources */,
 			);
@@ -165,10 +194,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30A73CED27FA11DF00685E50 /* ContentView.swift in Sources */,
+				30A73D0327FA535900685E50 /* Mocked Data.swift in Sources */,
 				30A73D0127FA46E900685E50 /* DetailView.swift in Sources */,
 				30A73CFD27FA196600685E50 /* HomeView.swift in Sources */,
 				30A73CEB27FA11DF00685E50 /* MusicAppAnimationChallengeApp.swift in Sources */,
+				30A73D0527FA54D000685E50 /* OffsetModifier.swift in Sources */,
 				30A73CFB27FA15F700685E50 /* Music.swift in Sources */,
 				30A73CFF27FA1E8600685E50 /* SnapCarousel.swift in Sources */,
 			);
@@ -304,6 +334,7 @@
 				DEVELOPMENT_TEAM = N4Y99Y6PT4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MusicAppAnimationChallenge/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -333,6 +364,7 @@
 				DEVELOPMENT_TEAM = N4Y99Y6PT4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MusicAppAnimationChallenge/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
