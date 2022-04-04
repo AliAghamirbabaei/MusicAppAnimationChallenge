@@ -9,7 +9,7 @@ import Foundation
 
 // MARK: Mocked Data
 var musics: [Music] = [
-    Music(musicTitle: "Bones", artwork: "IG-Bones", lyrics: """
+    Music(musicName: "Bones", artwork: "IG-Bones", lyrics: """
 [Pre-Chorus]
 My patience is waning, is this entertaining?
 Our patience is waning, is this entertaining?
@@ -53,7 +53,7 @@ There goes my mind (There it goes)
 
 Songwriters: Benjamin Arthur Mckee / Daniel Coulter Reynolds / Daniel James Platzman / Daniel Wayne Sermon / Mattias Larsson / Robin Fredriksson
 """),
-    Music(musicTitle: "Enemy", artwork: "IG-Enemy", lyrics: """
+    Music(musicName: "Enemy", artwork: "IG-Enemy", lyrics: """
 [Intro: Dan Reynolds]
 Look out for yourself
 
@@ -135,7 +135,7 @@ Pray it away, I swear I'll never be a saint
 
 Songwriters: Benjamin Arthur Mckee / Daniel Coulter Reynolds / Daniel James Platzman / Daniel Wayne Sermon / Destin Route / Justin Tranter / Mattias Per Larsson / Robin Lennart Fredriksson
 """),
-    Music(musicTitle: "Radioactive", artwork: "IG-Radioactive", lyrics: """
+    Music(musicName: "Radioactive", artwork: "IG-Radioactive", lyrics: """
 [Intro]
 Whoah-oh
 Whoah-oh
@@ -159,8 +159,6 @@ I'm waking up, I feel it in my bones
 Enough to make my system blow
 Welcome to the new age, to the new age
 Welcome to the new age, to the new age
-
-
 
 [Chorus]
 Whoa-oh, whoa
@@ -211,7 +209,7 @@ I'm radioactive, radioactive
 
 Songwriters: Benjamin Arthur McKee / Daniel Coulter Reynolds / Daniel Wayne Sermon / Joshua Francis Mosser / Alexander Junior Grant
 """),
-    Music(musicTitle: "Believer", artwork: "IG-Believer", lyrics: """
+    Music(musicName: "Believer", artwork: "IG-Believer", lyrics: """
 [Verse 1]
 First things first
 I'ma say all the words inside my head
@@ -235,8 +233,6 @@ Singing from heartache from the pain
 Taking my message from the veins
 Speaking my lesson from the brain
 Seeing the beauty through the...
-
-
 
 [Chorus]
 Pain! You made me a, you made me a
@@ -299,7 +295,7 @@ Believer, believer
 
 Songwriters: Benjamin Arthur Mckee / Daniel Coulter Reynolds / Daniel Wayne Sermon / Mattias Per Larsson / Robin Lennart Fredriksson / Daniel James Platzman / Justin Drew Tranter
 """),
-    Music(musicTitle: "Wrecked", artwork: "IG-Wreaked", lyrics: """
+    Music(musicName: "Wrecked", artwork: "IG-Wrecked", lyrics: """
 [Verse 1]
 Days pass by, and my eyes, they dry, and I think that I'm okay
 'Til I find myself in conversation, fading away
@@ -377,7 +373,7 @@ One more rainy day
 
 Songwriters: Benjamin Arthur Mckee / Daniel Coulter Reynolds / Daniel Wayne Sermon / Daniel James Platzman
 """),
-    Music(musicTitle: "Whatever it takes", artwork: "IG-Whatever-it-takes", lyrics: """
+    Music(musicName: "Whatever it takes", artwork: "IG-Whatever-it-takes", lyrics: """
 [Verse 1]
 Falling too fast to prepare for this
 Tripping in the world could be dangerous
@@ -467,7 +463,7 @@ I do what it takes
 
 Songwriters: Benjamin Arthur McKee / Daniel Coulter Reynolds / Daniel James Platzman / Daniel Wayne Sermon / Joel Little
 """),
-    Music(musicTitle: "I Bet My Life", artwork: "IG-I-Bet-My-Life", lyrics: """
+    Music(musicName: "I Bet My Life", artwork: "IG-I-Bet-My-Life", lyrics: """
 [Intro]
 (I bet, I bet my life)
 (I bet, I bet my life)
